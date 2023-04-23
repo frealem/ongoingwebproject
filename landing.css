@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.root{
+    --bgcolor:rgb(223, 160, 223);
+    --maincolor:rgb(146, 5, 146);
+ --hovercolor:rgb(116, 6, 116);
+}
+body{
+    font-family:"poppins",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+img{
+    width:100%;
+} 
+a{
+    text-decoration: none;
+}
+.bigContainer{
+    padding: 28px 0px 32px;
+    background: #2f9797;
+    min-height: 100vh; /*1920px*/
+    overflow:hidden;
+}
+.logo-eng img{
+    width:40px;
+ margin-right:10px;
+ margin-top:-15px
+}
+.logo-eng {
+ display:flex;
+ align-items:center;
+ cursor:pointer;
+}
+.logo-eng h2{
+ color:rgb(1, 24, 44);
+ line-height:1;
+ font-weight:600;
+}
+.nav{
+   overflow:auto;
+
+}
+.nav ul{
+    padding-inline-start: 300px;
+    max-width: 100%;
+
+
+ display:flex;
+ float:right;
+ 
+ font-size:medium;
+ list-style-type:none;
+ align-items: center;
+ 
+}
+.nav ul li{
+    width:25%;
+}
+.nav a{
+ color:#ffffff;
+ margin-left:4.5rem;
+ display:inline-block;
+ padding:3px 6px;
+ 
+ text-align:start;
+ }
+a:hover{
+ color:#5f5fea;
+}
+a:visited{
+ color:#01013e
+}
+.but{
+    padding:3px 6px;
+    display: inline-block;
+    color:white;
+    border-radius: 30px;
+    background-color:rgb(1, 24, 44);
+
+}
+.small-container{
+width:100%;
+position:relative;
+max-width :100%;
+padding:0 50px;
+margin:0 auto;
+z-index: 10;
+}
+
+header .small-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
