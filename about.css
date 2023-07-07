@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.section{
+    width:100%;
+    min-height: 100vh;
+    background-color: rgb(7, 1, 25);
+    color:#fff;
+}
+.basket{
+    width:80%;
+    display:block;
+    margin: auto;
+    padding-top: 100px;
+}
+.contentPart{
+    float:left;
+    width:55%;
+}
+.imagePart{
+    float: right;
+    width: 30%;
+}
+.imagePart .img{
+    width: 60%;
+}
+.contentPart .title{
+    text-transform: uppercase;
+    font-size: 28px;
+
+}
+.contentPart .content h3{
+    margin-top: 20px;
+    color:rgb(0, 234, 255);
+    font-size: 20px;
+}
+.contentPart .content{
+    margin-top: 10px;
+    font-family:sans-serif ;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.contentPart .content .button a{
+    background-color: blue;
+    padding:12px 40px;
+    color:rgb(7, 1, 25);
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    
+}
+.contentPart .content .button{
+    margin-top: 23px;
+}
+.contentPart .content .button a:hover{
+    background-color: rgb(114, 114, 223);
+}
+.contentPart .smedia{
+    margin-top: 50px ;
+}
+.contentPart .smedia i{
+   /* color:aqua;
+    /*background-color: aqua;*/
+    font-size: 30px;
+    padding:0 10px;
+}
+.contentPart .smedia i:hover{
+    color: rgb(211, 208, 221);
+}
+ @media screen and (max-width:768px) {
+   .basket{ width:80%;
+    display:block;
+    margin: auto;
+    padding-top: 50px;}
+    .contentPart{
+        float:none;
+        width:100%;
+    display: block;
+margin: auto;
+}   
+ 
+ .imagePart{
+    float:none;
+        width:100%;
+    display: block;
+margin: auto;
+    }
+    .contentPart .title{
+        text-align: center;
+        font-size: 19px;
+    }
+    .contentPart .content .button{
+        text-align: center;
+    }
+    .contentPart .content .button a{
+        padding: 9px 30px;
+    }
+    .contentPart .smedia{
+        text-align: center;
+    }
+    .imagePart img{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+}
